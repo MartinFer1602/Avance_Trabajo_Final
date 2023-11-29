@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="container-fluid content-header">
+            <nav class="navbar navbar-expand-md" style="background-color: rgb(96, 158, 59)">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="header__logo" src="img/logito.jpg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto me-5">
+                            <a class="nav-link fw-semibold fs-5 text-light" href="index.html">INICIO</a>
+                            <a class="nav-link fw-semibold fs-5 text-light" href="nosotros.html">NOSOTROS</a>
+                            <a class="nav-link active fw-semibold fs-5 text-body-tertiary" aria-current="page" href="productos.html">PRODUCTOS</a>
+                            <a class="nav-link fw-semibold fs-5 text-light" href="contacto.html">CONTACTO</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main class="container">
+        <section class="container text-center ">
+            <h1>NUESTROS PRODUCTOS</h1>
+            <hr>
+            <h2 class="display-6">NEUMÁTICOS</h2>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/llanta1.jpg" class="img__llantas card-img-top mx-auto" alt="llanta" >
+                        <div class="card-body" >
+                            <h3>225/65R17 102H KENDA KR32 LLANTA PCR</h3>
+                            <p>S/. 400</p>
+
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a> 
+                                <div class="cart" id="cart1" data-totalitems="0">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/llanta2.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>225/40ZR18 92W KENDA KAISER KR20 LLANT</h3>
+                            <p>s/. 450</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                <div class="cart" id="cart2" data-totalitems="0">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/llanta3.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>155R13C 91/89N 8PR KENDA KR06 LLANTA LTR</h3>
+                            <p>S/. 500 </p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                <div class="cart" id="cart3" data-totalitems="0">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3" >
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/llanta4.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>P265/65R17 112S KENDA KLEVER A/T KR28 LLANTA</h3>
+                            <p>S/. 400</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                <div class="cart" id="cart4" data-totalitems="0">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="container text-center">
+            <h2 class="display-6">AROS</h2>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aro1.jpg" class="img__llantas card-img-top mx-auto" alt="llanta" >
+                        <div class="card-body" >
+                            <h3>ARO DE ALEACIÓN DEPORTIVO DARWIN RACING N°14 X 6.0. MODELO B-1220</h3>
+                            <p>S/. 250</p>
+
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aro2.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>ARO DE ALEACIÓN DEPORTIVO DARWIN RACING N°15 X 6.5. MODELO D-5270</h3>
+                            <p>S/. 300</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aro3.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>ARO DE ALEACIÓN DEPORTIVO DARWIN RACING N°15 X 7.0. MODELO B-768</h3>
+                            <p>s/. 300</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aro4.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>ARO DE ALEACIÓN DEPORTIVO DARWIN RACING N°14 X 6.0. MODELO B-337</h3>
+                            <p>S/. 350</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="container text-center">
+            <h2 class="display-6">BATERIAS</h2>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 py-3" >
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/bateria1.jpg" class="img__llantas card-img-top mx-auto" alt="llanta" >
+                        <div class="card-body" >
+                            <h3>BATERÍA HANKOOK MF75D31R 75 AH 660CCA</h3>
+                            <p>S/. 350</p>
+
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/bateria2.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>BATERIA BOSCH 80D23L (70AH/560A)</h3>
+                            <p>S/. 300</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/bateria3.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>BATERÍA DGP MF56828 68AH 600CCA-BR</h3>
+                            <p>S/. 400</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/bateria4.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>BATERÍA DGP MF105D31L 90AH 735CCA</h3>
+                            <p>S/. 450</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="container text-center">
+            <h2 class="display-6">ACEITES</h2>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aceite1.jpg" class="img__llantas card-img-top mx-auto" alt="llanta" >
+                        <div class="card-body" >
+                            <h3>ACEITE DE MOTOR SEMI-SINTÉTICO 15W-40 DE 1 GL</h3>
+                            <p>s/. 100</p>
+
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aceite2.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>ACEITE DE MOTOR MINERAL 15W-40 DE 1 GL</h3>
+                            <p>S/. 100</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aceite3.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>ACEITE DE MOTOR SEMI-SINTÉTICO 10W-30 DE 1 GL</h3>
+                            <p>S/. 150</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/aceite4.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>ACEITE DE MOTOR SINTÉTICO 5W-40 BOTELLA </h3>
+                            <p>S/. 200</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="container text-center">
+            <h2 class="display-6">REFRIGERANTES</h2>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/refrigerante1.jpg" class="img__llantas card-img-top mx-auto" alt="llanta" >
+                        <div class="card-body" >
+                            <h3>ANTICONGELANTE Y REFRIGERANTE LUBRITEK</h3>
+                            <p>s/. 250</p>
+
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/refrigerante2.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>REFRIGERANTE RADIADOR VERDE SIMONIZ GALÓN</h3>
+                            <p>S/. 100</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3" style=>
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/refrigerante3.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>REFRIGERANTE RADIADOR ROJO SIMONIZ GALÓN</h3>
+                            <p>S/. 50</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 py-3">
+                    <div class="all-cards card shadow mx-auto" >
+                        <img src="img/refrigerante4.jpg" class="img__llantas card-img-top mx-auto" alt="llanta">
+                        <div class="card-body" >
+                            <h3>REFRIGERANTE LUBRITEK 33 % LONG LIFE COOLANT (19L)</h3>
+                            <p>S/. 250</p>
+                            <div class="container-button">
+                                <a href="#" class="btn btn-sm btn-primary"> Más información </a>
+                                
+                                <div class="page-wrapper">
+                                    <button class="addtocart">
+                                        Añadir al carrito
+                                        <span class="cart-item"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+        <hr>
+        <footer class="footer">
+            <div>
+                <h3>CONTACTO</h3>
+                <p>Correo: info@goldcar.com</p>
+                <p>Teléfono: (123) 456-7890</p>
+            </div>
+            <div>
+                <h3>ENLACES</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>SÍGUENOS: </h3>
+
+                <div class="container__icons">
+                    <a href="https://www.facebook.com/"><img class="icon__facebook" src="img/facebook.png"
+                            alt="facebook"></a>
+                    <a href="https://www.instagram.com/"><img class="icon__instagram" src="img/instagram.png"
+                            alt="instagram"></a>
+                    <a href="https://www.tiktok.com/es/"><img class="icon__tik-tok" src="img/tik-tok.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

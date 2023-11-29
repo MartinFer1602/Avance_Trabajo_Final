@@ -1,0 +1,15 @@
+.table-cart__product{
+    display: flex;
+}
+
+.table-cart__product-image{
+    width: 50px;
+    height: 50px;
+}
+
+.table-cart__product-text{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    flex: 1;
+}
